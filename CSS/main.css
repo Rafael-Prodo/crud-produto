@@ -57,20 +57,23 @@ footer {
     color: white;
 }
 
-@media (max-width:480px) {
-    header {
-        position: fixed;
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+
+    main {
         width: 100%;
+        padding: 20px;
+        margin: 2vh auto;
+        gap: 15px;
     }
 
     .header-title {
         font-size: 1.5rem;
     }
 
-    main {
-        padding: 0;
-        margin: 20px 0 0 0;
-        width: 100%;
-        box-shadow: none;
+    footer {
+        font-size: 0.8rem;
     }
 }
