@@ -28,30 +28,18 @@
     background-color: var(--secundary-color);
 }
 
-@media (max-width:480px) {
+@media (max-width: 368px) {
     .records {
-        border-spacing: 5px;
+        font-size: 0.9rem;
     }
 
-    .records thead {
-        display: none;
+    .records th, .records td {
+        padding: 10px;
+        font-size: 1rem;
     }
 
-    .records tr {
-        box-shadow: 0 1px 3px var(--shadow-color);
-    }
-
-    .records td:not(:first-child) {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 20px;
-    }
-
-    .records td {
-        margin: 10px;
-    }
-
-    .records tr:hover {
-        background-color: inherit;
+    .records th:last-child,
+    .records td:last-child {
+        min-width: 100px;
     }
 }
