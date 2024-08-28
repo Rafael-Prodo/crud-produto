@@ -1,4 +1,4 @@
-# :shopping_cart: Sistema de Gerenciamento de Produtos Esportivos :open_file_folder:
+# :shopping_cart: Sistema Gerenciador de Produtos Esportivos :open_file_folder:
 
 
 ## 	:globe_with_meridians: Visão Geral
