@@ -81,20 +81,19 @@
     padding: 0 20px;
 }
 
-@media (max-width:480px) {
-    .modal {
-        top: 100%;
-        transition: all 1s ease;
-    }
-
-    .modal.active {
-        top: 0;
-    }
-
+@media (max-width: 368px) {
     .modal-content {
-        margin: 0;
-        width: 100%;
-        position: fixed;
+        width: 80vw;
+        padding-bottom: 10px;
+    }
+
+    .modal-header {
+        font-size: 0.9rem;
+    }
+
+    .modal-form {
+        flex-direction: column;
+        gap: 10px;
     }
 
     .modal-field {
