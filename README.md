@@ -32,4 +32,4 @@ Este projeto é um *Sistema de Gerenciamento de Produtos* desenvolvido com JavaS
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar um pull request ou abrir uma issue se tiver sugestões ou melhorias
 
-# :arrow_forward: [Acessar Página]((https://rafael-prodo.github.io/crud-produto/))
+# :arrow_forward: [Acessar Página](https://rafael-prodo.github.io/crud-produto/)
